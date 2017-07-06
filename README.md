@@ -1,3 +1,13 @@
+find-phone-model-demo
+=====================
+
+This is a demo app for [find-phone-model](https://github.com/bogdancar/find-phone-model) library. This is an Angular 4 app that exposes an input field and a button to search the phone models on the lib and displays a list with the search result.
+
+Usage
+-----
+
+Clone/download the app, run `yarn` or `npm install` on app folder depending on your installed package manager, then `ng serve -o` (you need @angular/cli installed).
+
 # FindPhoneModelDemo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.

@@ -1,0 +1,24 @@
+.item{
+    display: flex;
+}
+
+.line {
+    margin-left: 5px;
+}
+
+.key {
+    font-weight: bold;
+}
+
+.btn {
+    background-color: aquamarine;
+}
+
+.title {
+    font-size: 1.5rem;
+    margin: 2rem 0 2rem 0;
+}
+
+.content {
+    margin: 2rem 0 2rem 0;
+}
