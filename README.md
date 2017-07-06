@@ -8,6 +8,11 @@ Usage
 
 Clone/download the app, run `yarn` or `npm install` on app folder depending on your installed package manager, then `ng serve -o` (you need @angular/cli installed).
 
+Notice!!!
+---------
+
+Given the fact that this app is generated with @angular/cli using yarn as default package manager, when I run `npm install`, npm will throw an error at the end of the install process. Although the app will work fine when `ng serve -o`, looks like npm is not playing well with yarn generated solutions. I also had problems with npm when developing the demo, so I reported the [bug here](https://github.com/npm/npm/issues/17644). Until it gets solved, I advice you to use yarn, although npm works.
+
 # FindPhoneModelDemo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
